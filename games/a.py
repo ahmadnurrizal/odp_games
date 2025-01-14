@@ -47,7 +47,3 @@ def a():
     except ValueError:
         print("Mohon maaf, permainan A belum tersedia!")
 
-
-a()
-
-
