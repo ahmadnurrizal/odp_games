@@ -34,6 +34,3 @@ def c():
 
     # write the code solution here
     # print("Mohon maaf, permainan C belum tersedia!")
-
-
-c()
