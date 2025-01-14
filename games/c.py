@@ -10,6 +10,30 @@ def c():
     KELUARAN
     153 adalah bilangan Armstrong
     """
+    
+    input_number = int(input("Enter a number: "))
+
+    order = len(str(input_number))
+
+    # initialize sum
+    sum = 0
+
+    # find the sum of the cube of each digit
+    temp = input_number
+    while temp > 0:
+        digit = temp % 10
+        sum += digit ** order
+        temp //= 10
+
+    # display the result
+    if input_number == sum:
+        print(input_number,"is an Armstrong number")
+    else:
+        print(input_number,"is not an Armstrong number")
+
 
     # write the code solution here
-    print("Mohon maaf, permainan C belum tersedia!")
+    # print("Mohon maaf, permainan C belum tersedia!")
+
+
+c()
