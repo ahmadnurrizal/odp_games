@@ -48,6 +48,6 @@ def a():
         print("Mohon maaf, permainan A belum tersedia!")
 
 
-a()
+
 
 
